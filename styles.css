@@ -1,1 +1,86 @@
-/* your code here */
+/* Footer Styles */
+footer {
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 40px 20px 20px 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #00bfff;
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-details {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.media-icons a {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.link-boxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.link-boxes .box {
+  min-width: 150px;
+  margin-bottom: 20px;
+}
+
+.link-boxes .link_name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.link-boxes li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.bottom-details {
+  border-top: 1px solid #444;
+  margin-top: 20px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    text-align: center;
+  }
+  .media-icons {
+    margin-top: 15px;
+  }
+  .link-boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .link-boxes .box {
+    text-align: center;
+  }
+}
